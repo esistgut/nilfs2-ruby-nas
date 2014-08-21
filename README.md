@@ -1,3 +1,6 @@
+nilfs2-ruby-nas
+==================
+
 Follow the comments in conf.yaml.sample and create a conf.yaml file, remember to
  setup /etc/fstab, samba according to your needs.
 The script can be called from cron daemon like this:
