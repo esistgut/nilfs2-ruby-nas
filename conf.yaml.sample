@@ -1,0 +1,18 @@
+---
+config:
+    # nilfs2 device path, something like /dev/md0 (remeber to put it on the fstab and to mount it)
+    dev: 
+    # usb sync mount point, something like /mnt/usb (remeber to put it in the fstab)
+    usb: 
+    # path containing the nilfs2 data, usually this it the mount point of the "dev" parameter
+    data_path: 
+    # the root mount point path for the snapshots, samba service is stopped while mounting snapshots in here 
+    snapshots_path:  
+    # smtp log output
+    mail_log:
+        smtp: 
+        port: 
+        from: 
+        to: 
+        subject: 
+---
